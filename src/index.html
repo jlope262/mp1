@@ -7,7 +7,133 @@
         <title>MP1</title>
     </head>
     <body>
-        <h1>Hello World! Welcome to MP1!</h1>
-        <img src="assets/image.jpg">
+        
+        <nav class="navigation">
+            <div class="container navigation_inner">
+                <div class="navigation_brand">Jennifer Lopez</div>
+                <ul class="navigation_menu">
+                    <li><a href="#about" class="navigation_link">About</a></li>
+                    <li><a href="#experience-projects" class="navigation_link">Experience/Projects</a></li>
+                    <li><a href="#skills" class="navigation_link">Skills</a></li>
+                    <li><a href="#contact" class="navigation_link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <header id="home" class="hero_container">
+                <h1 class = "title_h"> I am Jennifer Lopez</h1>
+                <p class = "subtitle_h"> Welcome to my personal website!</p>
+        </header>
+
+        <div class="modal" aria-hidden="true">
+            <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+                <button class="modal-close"> x </button>
+                <h3 id="modalTitle">DETAILS</h3>
+                <div class="modal-body">
+                </div>
+
+            </div>
+        </div>
+    
+        
+        
+        <div id="about" class="stripe">
+            <div class="container_grid">
+                <div class="bio">
+                    <h2 class="sec_title">ABOUT ME</h2>
+                    <p>Hello, I am a current student at the University of Illinois Urbana Champaign pursuing a Computer Science degree and a Cybersecurity certificate. I am passionate about technology and eager 
+                        to learn more about the field. I am from Chicago, Illinois, and I enjoy nature along with hiking and outdoor activities! I love my dog Shadow, I love doing spontaneous things and picking up new hobbies.
+                    </p>
+                </div>
+                <div class="bio_image">
+                    <img src="assets/Jennifer.jpg" alt="Picture of Jennifer Lopez" class="bio_pic">
+                </div>
+                <div class="about_facts">
+                    <h2 class="sec_title">A FEW FACTS</h2>
+                    <ul>
+                        <li> Hometown: Chicago, Illinois </li>
+                        <li> Favorite food: Enchiladas</li>
+                        <li> Favorite color: Pink</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+
+        <div id="experience-projects" class="stripe">
+            <div class="container_carousel">
+                <h2 class="sec_title">EXPERIENCE/PROJECTS</h2>
+                <div class="carousel">
+                    <div class="carousel_track" role="list">
+                        <div class="carousel_item" role="listitem">  
+                            <h3>Summer to Present 2025 Internship: Caterpillar</h3>
+                            <img src="assets/cat.jpeg" class="cat_image">
+                            <button class="dets" data-item="cat">more</button>
+                        </div>
+
+                        <div class="carousel_item"> 
+                            <h3>Summer 2023 Internship: DPI</h3>
+                            <img src="assets/dpi.png" class="dpi_image">
+                            <button class="dets" data-item="dpi">more</button>
+                        </div>
+                        <div class="carousel_item"> 
+                            <h3>Spotify Search Website</h3>
+                            <img src="assets/spotify.png" class="spotify_image">
+                            <button class="dets" data-item="spotify">more</button>
+                        </div>
+                    </div>
+                    <button class="prev" aria-label="Previous Slide">
+                        <p> < </p>
+                    </button>
+                    <button class="next" aria-label="Next Slide">
+                        <p> > </p>
+                    </button>
+
+                    <div class="dots" role ="tablist" aria-label="Slide dots">
+                        <button class="dot" role="tab" aria-label="Caterpillar slide"></button>
+                        <button class="dot" role="tab" aria-label="DPI slide"></button>
+                        <button class="dot" role="tab" aria-label="Spotify slide"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="values" class="stripe">
+            <div class="container_vid">
+                <div class="video_bg">
+                    <video autoplay muted loop playsinline id="myVideo">
+                        <source src="assets/bg_video.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="vid_content">
+                    <p>"Be humble, always keep learning."</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="skills" class="stripe">
+            <div class="container_c">
+                <h2 class="sec_title">SKILLS</h2>
+                <p>skills list</p>
+            </div>
+        </div>
+
+        <div id="parallax" class="stripe">
+            <div class="container_p">
+            </div>
+        </div>
+
+        <div id="contact" class="stripe">
+            <div class="container_c">
+                <h2 class="sec_title">CONTACT</h2>
+                <p>social media buttons</p>
+            </div>
+        </div>
+        
+        <footer id="footer" class="stripe">
+            <div class="container_c">
+                <p>© 2025 Jennifer Lopez</p>
+            </div>
+        </footer>
     </body>
 </html>

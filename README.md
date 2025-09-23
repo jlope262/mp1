@@ -101,6 +101,19 @@ You will need to do some additional work to properly deploy the website. There a
     - Just make sure you do `git status` and `git log` first so we can see your last edits.
 2. Fill out and submit the form [here](https://forms.gle/Xyr7YhBBLdafny3H6)
 
+## Resources
+https://www.w3schools.com/html/html_links.asp
+https://www.w3schools.com/howto/howto_js_navbar_sticky.asp
+https://www.w3schools.com/cssref/css_websafe_fonts.php
+https://www.w3schools.com/howto/howto_css_hero_image.asp
+https://www.w3schools.com/howto/howto_js_navbar_shrink_scroll.asp
+https://forum.freecodecamp.org/t/nav-bar-help-too-far-to-the-right-and-wont-move-to-the-left-and-background-doesnt-cover-all-the-page-solved/147626
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout
+https://forum.squarespace.com/topic/284258-how-do-i-add-a-white-50-opaque-overlay-to-some-images-on-my-website/
+https://www.w3schools.com/howto/howto_css_parallax.asp
+https://www.w3schools.com/howto/howto_js_slideshow.asp
+https://www.w3schools.com/howto/howto_css_modals.asp
+
 ## Large Language Model Usage Policy
 
 We acknowledge the transformative potential of Large Language Models (LLM) in generating code; however, we are still in the nascent stages of understanding how to embed LLMs in developer workflows to write code more efficiently while maintaining quality. Therefore, we will not be teaching students directly how to use LLMs to develop web applications.
