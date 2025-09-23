@@ -422,3 +422,34 @@ a {
     font-size: 1.5rem;
     cursor: pointer;
 }
+
+
+//contact info with icons
+.contact_vectors {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 1rem;
+
+    a {
+        display:inline-flex;
+        align-items: center;
+        justify-content: center;
+        .icon {
+            width: 40px;
+            height: 40px;
+            fill: $color-text;
+            transition: fill 0.3s ease;
+        }
+        &:hover .icon, &:focus .icon {
+            fill: $color-accent;
+        }
+    }
+}
+
+.container_c {
+    text-align: center;
+    padding: 50px;
+    font-size: 1rem;
+    color: $color-text;
+}

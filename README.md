@@ -113,6 +113,7 @@ https://forum.squarespace.com/topic/284258-how-do-i-add-a-white-50-opaque-overla
 https://www.w3schools.com/howto/howto_css_parallax.asp
 https://www.w3schools.com/howto/howto_js_slideshow.asp
 https://www.w3schools.com/howto/howto_css_modals.asp
+https://www.reddit.com/r/web_design/comments/ug650o/does_your_personal_site_has_a_footer_if_not_why/
 
 ## Large Language Model Usage Policy
 
